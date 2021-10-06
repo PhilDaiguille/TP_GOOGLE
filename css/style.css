@@ -1,0 +1,146 @@
+/*reset*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+h1,h2,h3,p,figure,ul,li,ol,section{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+a,button{
+    text-decoration: none;
+    padding: 0;
+    border: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    height: 10rem;
+}
+header nav{
+    padding: 1rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: end;
+}
+header nav ul{
+    padding: 1rem 2rem;
+    display: flex;
+}
+header nav ul li{
+    padding-left: 2rem;
+}
+header nav ul li a{
+    color: #111;
+}
+header nav ul li img{
+    max-width: 3.4rem;
+    transform: translateY(-0.4rem);
+    border-radius: 12rem;
+}
+
+
+/*main*/
+main{
+    margin: 5rem auto;
+    text-align: center;
+    padding-top: 5rem;
+    max-height: 46rem;
+    padding-bottom: 10rem;
+    max-width: 120rem;
+}
+main figure{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+main figure img{
+    max-width: 100%;
+}
+main figure button{
+    background-color: #f8f9fa;
+    padding: 1rem 1.5rem;
+    color: #222;
+    font-weight: 500;
+    border-radius: 0.3rem;
+    margin: 2rem 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+main figure form .search{
+    margin: 2rem auto;
+    width: 65%;
+    padding: 1.4rem;
+    border:solid 0.2rem #e3e4e8;
+    border-radius: 2.4rem;
+}
+main figure form .search:hover{
+    box-shadow: 0.2rem 0.2rem 1rem #c7c7c7a9;
+}
+main figure button:hover{
+    box-shadow: 0.1rem 0.1rem 0.1rem #f2f2f2;
+    border: solid .1rem #e4e4e480;
+}
+main figure p{
+    font-size: small;
+}
+
+
+/*footer*/
+footer{
+    background-color: #f2f2f2;
+}
+footer hr{
+    font-size: 0.1rem;
+    color: #e3e4e84d;
+}
+footer ul li img{
+    max-width: 5%;
+    transform: translateX(.3rem);
+}
+footer p{
+    color: #70757a;
+    padding: 1rem 1rem;
+}
+footer ul{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li a{
+    padding-left: 1rem;
+    color: #70757a;
+}
+footer ul .carbone{
+    margin: auto 4rem;
+}
+
+@media screen and (max-width: 70rem) {
+    footer ul{
+        text-align: justify;
+        display: block;  
+    }
+    footer ul li a{
+        padding: 0;
+    }
+    main figure form .search{
+        width: 80%;
+        padding: 1rem;
+    }
+    footer ul .carbone{
+        margin: 1rem auto;
+    }
+    footer ul .carbone a{
+        padding-left: 1rem;
+    }
+}
