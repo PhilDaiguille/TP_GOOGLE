@@ -75,7 +75,8 @@ main figure button{
     font-weight: 500;
     border-radius: 0.3rem;
     margin: 2rem 0.5rem;
-    transition: all 0.3s ease-in-out;
+    border:solid 0.1rem #e3e4e82a;
+    transition: all 0.5s ease-in-out;
 }
 main figure form .search{
     margin: 2rem auto;
@@ -89,6 +90,7 @@ main figure form .search:hover{
 }
 main figure button:hover{
     box-shadow: 0.1rem 0.1rem 0.5rem #c7c7c7d0;
+    border:solid 0.1rem #e3e4e88c;
 }
 main figure p{
     font-size: small;
