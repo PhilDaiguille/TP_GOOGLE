@@ -68,7 +68,7 @@ main figure{
 main figure img{
     max-width: 100%;
 }
-main figure button{
+main figure form .button{
     background-color: #f8f9fa;
     padding: 1rem 1.5rem;
     color: #222;
@@ -88,7 +88,7 @@ main figure form .search{
 main figure form .search:hover{
     box-shadow: 0.2rem 0.2rem 1rem #c7c7c7a9;
 }
-main figure button:hover{
+main figure form .button:hover{
     box-shadow: 0.1rem 0.1rem 0.5rem #c7c7c7d0;
     border:solid 0.1rem #e3e4e88c;
 }
